@@ -24,7 +24,7 @@ mongoose.connect('mongodb+srv://Mern_Project:Mern_Project@cluster0.sev3w1l.mongo
 
 app.use('/', require('./routes/Route'))
 
-app.listen(3001, () => {
+app.listen(3000, () => {
     console.log('server connected')
 })
 
